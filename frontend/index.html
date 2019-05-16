@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Danfoss frontend</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper text-center">
+      <div class="btn-group mt-4" role="group" aria-label="First group">
+        <button type="button" id="newHouse" class="btn btn-secondary">Create new house</button>
+        <button type="button" id="deleteHouse" class="btn btn-secondary">Delete house</button>
+        <button type="button" id="findHouse" class="btn btn-secondary">Find a house</button>
+        <button type="button" id="editHouse" class="btn btn-secondary">Edit house</button>
+        <button type="button" id="allHouses" class="btn btn-secondary">Show all houses</button>
+      </div>
+    </div>
+    <div class="wrapper text-center">
+      <div class="btn-group mt-4" role="group" aria-label="First group">
+        <button type="button" id="newMeter" class="btn btn-secondary">Create new meter</button>
+        <button type="button" id="registerMeter" class="btn btn-secondary">Register meter to a house</button>
+        <button type="button" id="mostConsumedHouse" class="btn btn-secondary">Show house, with most water consumed</button>
+        <button type="button" id="leastConsumedHouse" class="btn btn-secondary">Show house, with least water consumed</button>
+        <button type="button" id="metersHouse" class="btn btn-secondary">Show all meters registered to a house</button>
+        <button type="button" id="meterIndication" class="btn btn-secondary">Enter meter indication</button>
+      </div>
+    </div>
+    <hr>
+    <form id="form">
+
+    </form>
+    <div class="container" id="output">
+
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="danfoss.js" charset="utf-8"></script>
+  <script src="ui.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
